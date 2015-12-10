@@ -30,7 +30,7 @@ It has a few additions:
 
 Options can be be passed to the constructor to customize behaviour.
 
-**fg** <code>CSS color values</code> The default foreground color used when reset color codes are encountered.
+**fg** <code>CSS color values</code> The default foreground color used when reset color codes are encountered. Default: `
 
 **bg** <code>CSS color values</code> The default background color used when reset color codes are encountered.
 
@@ -39,6 +39,18 @@ Options can be be passed to the constructor to customize behaviour.
 **escapeXML** <code>true or false</code> Generate HTML/XML entities.
 
 **stream** <code>true or false</code> save style state across invocations of toHtml().
+
+### Defaults
+
+```coffee
+fg: '#FFF'
+bg: '#000'
+newline: false
+escapeXML: false
+stream: false
+```
+
+
 
 ## Development
 
